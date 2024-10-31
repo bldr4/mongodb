@@ -1,0 +1,112 @@
+{
+    "Etudiants": [
+        {
+            "_id": "etudiant1",
+            "nom": "Dupont",
+            "prenom": "Jean",
+            "email": "jean.dupont@example.com",
+            "tel": "123456789"
+        },
+        {
+            "_id": "etudiant2",
+            "nom": "Durand",
+            "prenom": "Marie",
+            "email": "marie.durand@example.com",
+            "tel": "987654321"
+        },
+        {
+            "_id": "etudiant3",
+            "nom": "Lefebvre",
+            "prenom": "Julien",
+            "email": "julien.lefebvre@example.com",
+            "tel": "456123789"
+        },
+        {
+            "_id": "etudiant4",
+            "nom": "Moreau",
+            "prenom": "Lucie",
+            "email": "lucie.moreau@example.com",
+            "tel": "321654987"
+        }
+    ],
+    "Formations": [
+        {
+            "_id": "formation1",
+            "titre": "Informatique 101",
+            "tarif": 400,
+            "duree_heures": 50,
+            "participants_min": 5,
+            "participants_max": 30
+        },
+        {
+            "_id": "formation2",
+            "titre": "Histoire de l'art",
+            "tarif": 300,
+            "duree_heures": 30,
+            "participants_min": 10,
+            "participants_max": 20
+        },
+        {
+            "_id": "formation3",
+            "titre": "Biologie avanc\u00e9e",
+            "tarif": 500,
+            "duree_heures": 40,
+            "participants_min": 15,
+            "participants_max": 25
+        },
+        {
+            "_id": "formation4",
+            "titre": "Math\u00e9matiques financi\u00e8res",
+            "tarif": 450,
+            "duree_heures": 35,
+            "participants_min": 8,
+            "participants_max": 22
+        }
+    ],
+    "Sessions": [
+        {
+            "_id": "session1",
+            "date_entree": "2024-02-01",
+            "date_sortie": "2024-02-10",
+            "lieu": "Campus principal",
+            "formation_id": "formation1",
+            "participants": [
+                "etudiant1",
+                "etudiant2"
+            ]
+        },
+        {
+            "_id": "session2",
+            "date_entree": "2024-03-01",
+            "date_sortie": "2024-03-10",
+            "lieu": "Campus secondaire",
+            "formation_id": "formation2",
+            "participants": [
+                "etudiant3",
+                "etudiant4"
+            ]
+        },
+        {
+            "_id": "session3",
+            "date_entree": "2024-04-01",
+            "date_sortie": "2024-04-10",
+            "lieu": "Campus Nord",
+            "formation_id": "formation3",
+            "participants": [
+                "etudiant1",
+                "etudiant4"
+            ]
+        },
+        {
+            "_id": "session4",
+            "date_entree": "2024-05-01",
+            "date_sortie": "2024-05-10",
+            "lieu": "Campus Sud",
+            "formation_id": "formation4",
+            "participants": [
+                "etudiant2",
+                "etudiant3"
+            ]
+        }
+    ]
+}
